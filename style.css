@@ -1,9 +1,9 @@
 body{
-background-image: url("llama.jpg");
+background-image: url("./pic10.jpg");
 background-size: cover;
     margin: 0px;
     padding: 0px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     width: 90%;
@@ -39,7 +39,7 @@ background-size: cover;
     border-bottom: 5px solid rgb(3, 62, 85);
 }
 .content > p{
-    color: #aaa;
+    color: rgb(2, 2, 2);
     font-size: 16px;
 }
 .img-llama
@@ -54,6 +54,6 @@ background-size: cover;
     
     }
     .content >h1{
-        font-size: 26px;
+        font-size: 26pxq;
     }
 }

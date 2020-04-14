@@ -1,0 +1,59 @@
+body{
+background-image: url("llama.jpg");
+background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abril Fatface', cursive;
+}
+.container{
+    width: 90%;
+    margin-left:5%; 
+    margin-right:5%;
+    height:100vh;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.social{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    margin-top: 30vh;
+    width:50%;
+}
+.content > h1{
+    font-weight: 600;
+    /* letter-spacing: 1.2px; */
+    font-size: 34px;
+}
+.content > h1 > span{
+    border-bottom: 5px solid rgb(3, 62, 85);
+}
+.content > p{
+    color: #aaa;
+    font-size: 16px;
+}
+.img-llama
+{
+    widows: 300px;
+    height: 200px;
+    background-image: url(llama.jpg);
+}
+@media only screen and (max-width: 1024px){
+    .content{
+        width: 100%;
+    
+    }
+    .content >h1{
+        font-size: 26px;
+    }
+}
